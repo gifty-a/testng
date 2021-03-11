@@ -22,9 +22,9 @@ public class BaseTests {
         webDriver.get(url);
         homePage = new HomePage(webDriver);
     }
-    @AfterClass
-    public void close(){
-        webDriver.quit();
-    }
+//    @AfterClass
+//    public void close(){
+//        webDriver.quit();
+//    }
 
 }
