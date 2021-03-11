@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Include and Exclude">
+    <test name="Provide methods">
+        <classes>
+            <class name="home.HomePageTests">
+                <methods>
+                    <include name="empty_search_test"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
